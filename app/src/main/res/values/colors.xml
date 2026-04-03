@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch screen background — matches our dark theme background color -->
+    <color name="launch_background">#0D0F14</color>
+</resources>

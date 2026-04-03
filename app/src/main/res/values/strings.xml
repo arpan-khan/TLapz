@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TLapz</string>
+    <string name="app_description">Privacy-first video journal</string>
+
+    <!-- Folder setup -->
+    <string name="setup_title">Welcome to TLapz</string>
+    <string name="setup_subtitle">Choose a folder to store your video journal</string>
+    <string name="setup_select_folder">Select Video Folder</string>
+    <string name="setup_offline_note">100%% offline — no internet required</string>
+    <string name="setup_your_files">Your files, your folder — always</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Journal</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Camera -->
+    <string name="camera_record">Record</string>
+    <string name="camera_stop">Stop</string>
+    <string name="camera_permission_required">Camera permission is required to record videos.</string>
+
+    <!-- Timeline -->
+    <string name="timeline_empty_title">No videos yet</string>
+    <string name="timeline_empty_subtitle">Tap the Record button to create your first journal entry.</string>
+
+    <!-- Settings sections -->
+    <string name="settings_storage">Storage</string>
+    <string name="settings_video">Video</string>
+    <string name="settings_batch_tools">Batch Tools</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_advanced">Advanced</string>
+
+    <!-- Error messages -->
+    <string name="error_no_folder_selected">No folder selected. Please select a folder in Settings.</string>
+    <string name="error_recording_failed">Recording failed. Please try again.</string>
+    <string name="error_compression_failed">Compression failed.</string>
+    <string name="error_merge_failed">Merge failed.</string>
+    <string name="error_delete_failed">Failed to delete the entry.</string>
+
+    <!-- Misc -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_done">Done</string>
+    <string name="confirm_delete_title">Delete entry?</string>
+    <string name="confirm_delete_message">This will permanently delete the video file. This cannot be undone.</string>
+</resources>

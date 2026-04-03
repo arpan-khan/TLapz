@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme – replaced at runtime by Compose TLapzTheme.
+         Using Theme.Material3 as base to avoid WindowBackground issues. -->
+    <style name="Theme.TLapz" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Edge-to-edge -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <!-- Match Compose background during launch -->
+        <item name="android:windowBackground">@color/launch_background</item>
+    </style>
+</resources>

@@ -1,0 +1,58 @@
+# Android Build Artifacts
+build/
+app/build/
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+
+# IDE & Tooling
+.idea/
+.gradle/
+*.iml
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.log
+
+# Sensitive/Local Properties
+# This ensures E:/Files/AndroidSDK paths aren't leaked to GitHub
+local.properties
+captures/
+*.hprof
+.externalNativeBuild
+.cxx/
+
+# Gradle related
+gradle-app.setting
+!gradle-wrapper.jar
+.navigation/
+
+# Signing & Security (CRITICAL)
+# Never upload your tlapz-release.jks keys to GitHub
+*.jks
+*.keystore
+*.p12
+*.properties_original
+
+# Kotlin/JVM specific
+.kotlin/
+kotlin-daemon-*.log
+.attach_pid*
+
+# User Specific Settings
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/kotlinc.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
